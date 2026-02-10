@@ -1,3 +1,5 @@
+# Searchable, structured, and comprehensive PhD documentation
+
 - [About](#about)
 - [Template setup](#template-setup)
 - [Template use](#template-use)
