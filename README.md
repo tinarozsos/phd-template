@@ -1,4 +1,4 @@
-# Searchable, structured, and comprehensive PhD documentation
+# Comprehensive PhD documentation with R and Quarto
 
 - [About](#about)
 - [Template setup](#template-setup)
