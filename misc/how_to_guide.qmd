@@ -1,0 +1,6 @@
+# How-to Reminders
+
+## YAML options
+
+- [Quarto Website options](https://quarto.org/docs/reference/projects/websites.html)
+- [Quarto HTML options](https://quarto.org/docs/reference/formats/html.html)

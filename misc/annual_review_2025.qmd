@@ -1,0 +1,11 @@
+---
+title: "PhD Annual Review Report"
+author: "Name"
+format: 
+  pdf:
+    number-sections: true
+fontsize: 10pt
+geometry: margin=2.5cm
+---
+
+Formats such as pdf won't be properly displayed on the site, but can be generated within and accessed from the repository.

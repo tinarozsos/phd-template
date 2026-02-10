@@ -1,0 +1,18 @@
+---
+title: "Ideas"
+bibliography: references.bib
+---
+
+::: {.callout-note icon=false collapse="true"}
+
+## Example paper idea
+
+example paper idea description
+
+To generate new ideas:
+
+1. run `idea()` in the console
+2. paste from the clipboard to ideas.qmd
+
+:::
+

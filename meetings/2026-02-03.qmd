@@ -1,0 +1,20 @@
+---
+title: "Supervisor meeting"
+date: "2026-02-03"
+attendees: "Name1, Name2"
+categories: [TODO,paper2]
+---
+
+# Agenda
+
+- discuss referee reports
+
+# Discussion
+
+- implement comments 1, 2
+- ignore comment 3
+
+# To do
+
+- [x] try new model specification
+- [ ] edit methodology

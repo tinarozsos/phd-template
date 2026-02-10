@@ -1,0 +1,18 @@
+---
+title: "Short bio"
+---
+
+::: {.callout-note icon=false collapse="true"}
+
+## Third person
+
+Tina is...
+
+:::
+::: {.callout-note icon=false collapse="true"}
+
+## First person
+
+I am...
+
+:::

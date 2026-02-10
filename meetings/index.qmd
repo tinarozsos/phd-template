@@ -1,0 +1,15 @@
+---
+title: "Meetings"
+
+listing:
+  id: meetings
+  type: table
+  fields: [date, title, attendees, categories]
+  field-display-names: 
+    attendees: "People"
+  categories: true
+  sort: "date desc"
+---
+
+::: {#meetings}
+:::

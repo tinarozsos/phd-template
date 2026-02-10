@@ -1,0 +1,29 @@
+---
+title: "Funding"
+bibliography: references.bib
+---
+
+# Travel funding
+
+```{r, echo=FALSE,message=FALSE,warning=FALSE,error=FALSE}
+
+# table to keep track of travel funding
+
+# total travel funding amount
+TOTAL_FUNDING <- 5000
+
+tibble::tribble(
+  ~Date, ~Purpose, ~Amount, ~Reimbursed,
+  20250630, "Conference 1 costs", 800, "yes",
+  20250831, "Conference 2 costs", 1000, "requested"
+) |> 
+  dplyr::mutate(Date = lubridate::ymd(Date)) |> 
+  dplyr::mutate(Remaining = TOTAL_FUNDING - cumsum(Amount), .before = 4) |> 
+  knitr::kable()
+```
+
+*Add reimbursement guidelines here*
+
+# Grants
+
+- *Add relevant grant opportunities here*

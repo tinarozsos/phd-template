@@ -1,0 +1,55 @@
+---
+title: "Conferences"
+---
+
+# To present at
+
+
+## 2025
+
+### June
+
+- 13-15: Conference Name
+  + [ACCEPTED, ATTENDED] **notification: 2025/03/01**, [conference website](url)
+  + City, Country
+  + *Title of the presentation*
+
+## 2026
+
+### July
+
+- 2-3: useR!2026
+  + [APPLIED] **notification: 2026/05/27**, [conference website](https://user2026.r-project.org/)
+  + Warsaw, Poland
+  + *Title of the presentation*
+  
+### September
+
+- 7-8: Other Conference name
+  + [TO APPLY] **deadline: 2026/03/15**, [call for proposals](url)
+  + City, Country
+  + *Title of the presentation*
+
+
+# To attend (virtually)
+
+
+## 2025
+
+### April
+
+- 9-11: [ShinyConf 2025](https://events.ringcentral.com/magic_links/4315c806-55bc-4833-8301-1095c215ea78/accept)
+
+### September
+
+- 16-18: [posit::conf(2025)](https://reg.conf.posit.co/flow/posit/positconf25/reg/login)
+
+## 2026
+
+### February
+
+- 25-26: [rainbowR conference](https://conference.rainbowr.org/)
+
+### September
+
+- 14-16: posit::conf(2026), link TBA

@@ -1,0 +1,25 @@
+---
+title: "Example Paper"
+author: "Your Name"
+status: "idea"
+bibliography: ../references.bib
+---
+
+# [Link to file]()
+<!-- e.g. Overleaf, GitHub, etc. -->
+
+# Abstract
+
+# Outline
+
+# Most relevant references
+
+<!-- use BibTeX keys. example: -->
+<!-- - @smith2022example:  -->
+<!--   - key for motivating research question -->
+
+# Next steps
+
+# Unresolved feedback
+
+# Publication options

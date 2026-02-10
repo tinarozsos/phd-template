@@ -1,0 +1,20 @@
+---
+title: "DATA201 preparation"
+date: "2026-02-09"
+attendees: "Instructor Name"
+categories: [teaching]
+---
+
+# Agenda
+
+- set up course
+- discuss assignments
+- assign responsibilities for grading
+
+# Discussion
+
+- ...
+
+# To do
+
+- [ ] 

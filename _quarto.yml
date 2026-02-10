@@ -1,0 +1,48 @@
+project:
+  type: website
+
+execute: 
+  freeze: auto
+
+bibliography: references.bib
+
+website:
+  title: "Tina's Big PhD Masterplan"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - sidebar:research
+      - references/index.qmd
+      - meetings/index.qmd
+      - conferences.qmd
+      - funding.qmd
+      - ideas.qmd
+      - development.qmd
+      - sidebar:misc
+      
+  sidebar:
+    - id: research
+      title: "Research projects"
+      style: "docked"
+      contents:
+        - auto: research/*
+    - id: misc
+      title: "Miscellaneous"
+      style: "docked"
+      contents:
+        - auto: misc/*
+
+format:
+  html:
+    theme: sandstone
+    toc: true
+    toc-location: left
+    toc-depth: 2
+    from: markdown+emoji
+    reference-location: margin
+    citation-location: margin
+    sidebar: false
+
+
+

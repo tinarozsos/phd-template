@@ -1,0 +1,9 @@
+---
+title: "An Example Article"
+author: "Smith, John and Lee, Maria"
+subtitle: "smith2022example"
+description: "Journal of Demo Research (2022)"
+categories: [paper2,UNREAD]
+---
+
+I would have a lot of notes about this paper, but it doesn't exist.

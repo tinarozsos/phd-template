@@ -1,0 +1,18 @@
+---
+title: "Supervisor meeting"
+date: ""
+attendees: ""
+categories: [TODO,admin,paper1,paper2,teaching]
+---
+
+# Agenda
+
+- 
+
+# Discussion
+
+- 
+
+# To do
+
+- [ ] 

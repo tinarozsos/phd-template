@@ -1,0 +1,15 @@
+---
+title: "R for Data Science"
+author: "Hadley Wickham and Mine Çetinkaya-Rundel and Garrett Grolemund"
+subtitle: "wickham2023r"
+description: "2023"
+categories: [paper1]
+---
+
+# This is a great book
+
+- here are the reasons why
+
+# A certain chapter
+
+- is **particularly** relevant to paper1

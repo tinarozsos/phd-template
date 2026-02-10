@@ -1,0 +1,15 @@
+---
+title: "References"
+listing:
+  id: references
+  type: table
+  fields: [subtitle, title, author, categories]
+  field-display-names: 
+    subtitle: "Key"
+  categories: true
+---
+
+::: {#refs}
+:::
+
+

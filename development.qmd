@@ -1,0 +1,15 @@
+---
+title: "Personal development"
+bibliography: references.bib
+---
+
+# Textbooks to read
+
+- [Advanced R](https://adv-r.hadley.nz/)
+- [Mastering Shiny](https://mastering-shiny.org/)
+
+# Personal website and blog
+
+- build it in Quarto, see [The Practical Guide](https://quarto-tdg.org/)
+- make it [FAIR](https://drmowinckels.io/blog/2024/fair-blog/)
+

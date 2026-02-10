@@ -1,0 +1,143 @@
+---
+title: "Overview"
+callout-icon: false
+callout-appearance: "simple"
+---
+
+## Quick TO-DOs
+
+- [x] finish paper draft
+- [ ] submit useR!2026 abstract
+
+## Timeline
+
+```{r, echo=FALSE,message=FALSE,warning=FALSE,error=FALSE,fig.width=10,fig.height=18}
+
+## generate calendar-like overview of multiple years
+
+library(tidyverse)
+
+# helper function for plot
+adjust_row <- function(df) {
+  df |>
+    group_by(year, row) |>
+    mutate(row = ifelse(start < lag(end) & !is.na(lag(end)), row - 0.1, row)) |>
+    ungroup()
+}
+
+# instructions:
+# - add all things to do in the next years, with start and end date, and category (affects only color of items)
+# - if items should appear in multiple years, add them as separate rows per year
+# - the order of items does not matter
+# - the layout of the calendar will be determined automatically based on the entries in the tribble
+plan <- tribble(
+  ~thing                         , ~start   , ~end     , ~cat        , 
+  # timetable
+  "conference deadlines"         , 20250101 , 20250315 , "tt"        , 
+  "conference deadlines"         , 20260101 , 20650315 , "tt"        , 
+  "conference deadlines"         , 20270101 , 20270315 , "tt"        , 
+  "conference deadlines"         , 20280101 , 20280315 , "tt"        ,      
+  
+  # teaching
+  "teach DATA101"                , 20240901 , 20241015 , "teaching"  ,         
+  "teach MATH102"                , 20241101 , 20241215 , "teaching"  ,     
+  "teach DATA201"                , 20250901 , 20251215 , "teaching"  ,
+  "thesis supervision"           , 20260301 , 20260615 , "teaching"  ,
+  
+  # research
+  "write research proposal"      , 20240901 , 20241231 , "paper"     ,        
+  "write chapter 1 draft"        , 20250101 , 20251001 , "paper"     ,       
+  "present chapter 1"            , 20250301 , 20250630 , "paper"     ,    
+  "collect data for chapter 2"   , 20250401 , 20250730 , "paper"     ,
+  "write chapter 2 draft"        , 20250801 , 20251231 , "paper"     , 
+  "write chapter 2 draft"        , 20260101 , 20260730 , "paper"     , 
+  "present chapter 2"            , 20260401 , 20260630 , "paper"     ,    
+  "compile dissertation"         , 20270831 , 20250831 , "paper"     ,        
+       
+  # milestones
+  "PhD advisor meeting"          , 20241101 , 20241101 , "milestone" ,        
+  "end of first year"            , 20250530 , 20250530 , "milestone" ,         
+  "academic job market"          , 20271001 , 20271231 , "milestone" ,        
+  "defense"                      , 20280630 , 20280630 , "milestone" 
+) |>
+  # in general, rest of the code should not be modified
+  mutate(
+    year = as.numeric(str_sub(start, 1, 4)),
+    start = ymd(paste0(2000, str_sub(start, 5, -1))),
+    end = ymd(paste0(2000, str_sub(end, 5, -1)))
+  ) |>
+  arrange(year, cat, end, start, desc(thing)) |>
+  group_by(year) |>
+  mutate(row = as.numeric(factor(cat))) |>
+  group_by(year, cat) |>
+  mutate(row = ifelse(start < lag(end) & !is.na(lag(end)), row - 0.1, row)) |>
+  ungroup() |>
+  reduce(
+    .x = 1:9,
+    .init = _,
+    .f = function(df, i) adjust_row(df)
+  ) |>
+  group_by(row) |>
+  mutate(y = cur_group_id())
+
+plan |>
+  ggplot() +
+  geom_segment(
+    aes(x = start, xend = end, y = y, yend = y, color = cat),
+    linewidth = 8
+  ) +
+  geom_label(
+    aes(x = end, y = y, label = thing, fill = cat),
+    hjust = 1,
+    size = 4.2,
+    label.r = unit(0, "mm"),
+    label.size = 0
+  ) +
+  geom_vline(
+    data = tibble(
+      year = year(today()),
+      xintercept = ymd(paste(2000, month(today()), day(today()), sep = "-"))
+    ),
+    aes(xintercept = xintercept),
+    color = "navy",
+    linewidth = 2,
+    alpha = 0.5
+  ) +
+  geom_text(
+    data = tibble(
+      year = year(today()),
+      x = ymd(paste(2000, month(today()), day(today()), sep = "-")),
+      y = 1,
+      label = "current date"
+    ),
+    aes(x, y, label = label),
+    color = "navy",
+    hjust = -0.05,
+    vjust = 0.8
+  ) +
+  coord_cartesian(clip = "off") +
+  scale_x_date(
+    limits = ymd(20000101, 20001231),
+    date_breaks = "1 month",
+    minor_breaks = NULL,
+    date_labels = "%b",
+    expand = expansion()
+  ) +
+  scale_y_continuous(expand = expansion(mult = c(0.08, 0.08))) +
+  scale_color_brewer(palette = "Pastel2") +
+  scale_fill_brewer(palette = "Pastel2") +
+  facet_wrap(~year, ncol = 1, scales = "free") +
+  theme_bw() +
+  theme(
+    legend.position = "none",
+    strip.background = element_blank(),
+    axis.text.y = element_blank(),
+    axis.title = element_blank(),
+    axis.ticks.y = element_blank(),
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor.y = element_blank(),
+    strip.text = element_text(size = 16, hjust = 0),
+    plot.margin = margin(0, 0.5, 0, 2, "cm")
+  )
+```
+
