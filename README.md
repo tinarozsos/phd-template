@@ -1,3 +1,17 @@
+- [About](#about)
+- [Template setup](#template-setup)
+- [Template use](#template-use)
+  * [Practical overview](#practical-overview)
+  * [Research projects](#research-projects)
+  * [Meeting notes](#meeting-notes)
+  * [Reference management](#reference-management)
+  * [Conference attendance](#conference-attendance)
+  * [Funding](#funding)
+  * [Other notes](#other-notes)
+- [Customizing the template](#customizing-the-template)
+- [Static encryption](#static-encryption)
+- [Acknowledgements](#acknowledgements)
+
 ## About
 
 This is a template for information management during a PhD.
