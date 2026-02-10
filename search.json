@@ -1,0 +1,161 @@
+[
+  {
+    "objectID": "research/example_paper.html",
+    "href": "research/example_paper.html",
+    "title": "Example Paper",
+    "section": "",
+    "text": "Link to file\n\n\n\nAbstract\n\n\nOutline\n\n\nMost relevant references\n\n\n\n\n\nNext steps\n\n\nUnresolved feedback\n\n\nPublication options",
+    "crumbs": [
+      "Example Paper"
+    ]
+  },
+  {
+    "objectID": "references/smith2022example.html",
+    "href": "references/smith2022example.html",
+    "title": "An Example Article",
+    "section": "",
+    "text": "I would have a lot of notes about this paper, but it doesn’t exist."
+  },
+  {
+    "objectID": "misc/how_to_guide.html",
+    "href": "misc/how_to_guide.html",
+    "title": "How-to Reminders",
+    "section": "",
+    "text": "Quarto Website options\nQuarto HTML options",
+    "crumbs": [
+      "How-to Reminders"
+    ]
+  },
+  {
+    "objectID": "misc/how_to_guide.html#yaml-options",
+    "href": "misc/how_to_guide.html#yaml-options",
+    "title": "How-to Reminders",
+    "section": "",
+    "text": "Quarto Website options\nQuarto HTML options",
+    "crumbs": [
+      "How-to Reminders"
+    ]
+  },
+  {
+    "objectID": "meetings/2026-02-09.html",
+    "href": "meetings/2026-02-09.html",
+    "title": "DATA201 preparation",
+    "section": "",
+    "text": "Agenda\n\nset up course\ndiscuss assignments\nassign responsibilities for grading\n\n\n\nDiscussion\n\n…\n\n\n\nTo do\n\n[ ]"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Overview",
+    "section": "",
+    "text": "finish paper draft\nsubmit useR!2026 abstract"
+  },
+  {
+    "objectID": "index.html#quick-to-dos",
+    "href": "index.html#quick-to-dos",
+    "title": "Overview",
+    "section": "",
+    "text": "finish paper draft\nsubmit useR!2026 abstract"
+  },
+  {
+    "objectID": "index.html#timeline",
+    "href": "index.html#timeline",
+    "title": "Overview",
+    "section": "Timeline",
+    "text": "Timeline"
+  },
+  {
+    "objectID": "funding.html",
+    "href": "funding.html",
+    "title": "Funding",
+    "section": "",
+    "text": "Travel funding\n\n\n\n\n\nDate\nPurpose\nAmount\nRemaining\nReimbursed\n\n\n\n\n2025-06-30\nConference 1 costs\n800\n4200\nyes\n\n\n2025-08-31\nConference 2 costs\n1000\n3200\nrequested\n\n\n\n\n\nAdd reimbursement guidelines here\n\n\nGrants\n\nAdd relevant grant opportunities here"
+  },
+  {
+    "objectID": "conferences.html",
+    "href": "conferences.html",
+    "title": "Conferences",
+    "section": "",
+    "text": "13-15: Conference Name\n\n[ACCEPTED, ATTENDED] notification: 2025/03/01, conference website\nCity, Country\nTitle of the presentation\n\n\n\n\n\n\n\n\n\n2-3: useR!2026\n\n[APPLIED] notification: 2026/05/27, conference website\nWarsaw, Poland\nTitle of the presentation\n\n\n\n\n\n\n7-8: Other Conference name\n\n[TO APPLY] deadline: 2026/03/15, call for proposals\nCity, Country\nTitle of the presentation"
+  },
+  {
+    "objectID": "conferences.html#section",
+    "href": "conferences.html#section",
+    "title": "Conferences",
+    "section": "",
+    "text": "13-15: Conference Name\n\n[ACCEPTED, ATTENDED] notification: 2025/03/01, conference website\nCity, Country\nTitle of the presentation"
+  },
+  {
+    "objectID": "conferences.html#section-1",
+    "href": "conferences.html#section-1",
+    "title": "Conferences",
+    "section": "",
+    "text": "2-3: useR!2026\n\n[APPLIED] notification: 2026/05/27, conference website\nWarsaw, Poland\nTitle of the presentation\n\n\n\n\n\n\n7-8: Other Conference name\n\n[TO APPLY] deadline: 2026/03/15, call for proposals\nCity, Country\nTitle of the presentation"
+  },
+  {
+    "objectID": "conferences.html#section-2",
+    "href": "conferences.html#section-2",
+    "title": "Conferences",
+    "section": "2025",
+    "text": "2025\n\nApril\n\n9-11: ShinyConf 2025\n\n\n\nSeptember\n\n16-18: posit::conf(2025)"
+  },
+  {
+    "objectID": "conferences.html#section-3",
+    "href": "conferences.html#section-3",
+    "title": "Conferences",
+    "section": "2026",
+    "text": "2026\n\nFebruary\n\n25-26: rainbowR conference\n\n\n\nSeptember\n\n14-16: posit::conf(2026), link TBA"
+  },
+  {
+    "objectID": "development.html",
+    "href": "development.html",
+    "title": "Personal development",
+    "section": "",
+    "text": "Textbooks to read\n\nAdvanced R\nMastering Shiny\n\n\n\nPersonal website and blog\n\nbuild it in Quarto, see The Practical Guide\nmake it FAIR"
+  },
+  {
+    "objectID": "ideas.html",
+    "href": "ideas.html",
+    "title": "Ideas",
+    "section": "",
+    "text": "NoteExample paper idea\n\n\n\n\n\nexample paper idea description\nTo generate new ideas:\n\nrun idea() in the console\npaste from the clipboard to ideas.qmd"
+  },
+  {
+    "objectID": "meetings/2026-02-03.html",
+    "href": "meetings/2026-02-03.html",
+    "title": "Supervisor meeting",
+    "section": "",
+    "text": "Agenda\n\ndiscuss referee reports\n\n\n\nDiscussion\n\nimplement comments 1, 2\nignore comment 3\n\n\n\nTo do\n\ntry new model specification\nedit methodology"
+  },
+  {
+    "objectID": "meetings/index.html",
+    "href": "meetings/index.html",
+    "title": "Meetings",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nPeople\n\n\n\nCategories\n\n\n\n\n\n\n\n\nFeb 9, 2026\n\n\nDATA201 preparation\n\n\nInstructor Name\n\n\nteaching\n\n\n\n\n\n\nFeb 3, 2026\n\n\nSupervisor meeting\n\n\nName1, Name2\n\n\nTODO, paper2\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "misc/bio.html",
+    "href": "misc/bio.html",
+    "title": "Short bio",
+    "section": "",
+    "text": "NoteThird person\n\n\n\n\n\nTina is…\n\n\n\n\n\n\n\n\n\nNoteFirst person\n\n\n\n\n\nI am…",
+    "crumbs": [
+      "Short bio"
+    ]
+  },
+  {
+    "objectID": "references/index.html",
+    "href": "references/index.html",
+    "title": "References",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nKey\n\n\n\nTitle\n\n\n\nAuthor\n\n\n\nCategories\n\n\n\n\n\n\n\n\nsmith2022example\n\n\nAn Example Article\n\n\nSmith, John and Lee, Maria\n\n\npaper2, UNREAD\n\n\n\n\n\n\nwickham2023r\n\n\nR for Data Science\n\n\nHadley Wickham and Mine Çetinkaya-Rundel and Garrett Grolemund\n\n\npaper1\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "references/wickham2023r.html",
+    "href": "references/wickham2023r.html",
+    "title": "R for Data Science",
+    "section": "",
+    "text": "This is a great book\n\nhere are the reasons why\n\n\n\nA certain chapter\n\nis particularly relevant to paper1"
+  }
+]

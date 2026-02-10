@@ -1,0 +1,16 @@
+[
+  {
+    "listing": "/meetings/index.html",
+    "items": [
+      "/meetings/2026-02-09.html",
+      "/meetings/2026-02-03.html"
+    ]
+  },
+  {
+    "listing": "/references/index.html",
+    "items": [
+      "/references/smith2022example.html",
+      "/references/wickham2023r.html"
+    ]
+  }
+]
