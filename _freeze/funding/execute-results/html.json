@@ -1,0 +1,15 @@
+{
+  "hash": "69b3fd005c06f1820d3197122372f6de",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Funding\"\nbibliography: references.bib\n---\n\n# Travel funding\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n\n|Date       |Purpose            | Amount| Remaining|Reimbursed |\n|:----------|:------------------|------:|---------:|:----------|\n|2025-06-30 |Conference 1 costs |    800|      4200|yes        |\n|2025-08-31 |Conference 2 costs |   1000|      3200|requested  |\n\n\n:::\n:::\n\n\n*Add reimbursement guidelines here*\n\n# Grants\n\n- *Add relevant grant opportunities here*",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

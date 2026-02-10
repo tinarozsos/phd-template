@@ -1,0 +1,17 @@
+{
+  "hash": "7f346985a50455bbe77f45ce39a67f02",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Overview\"\ncallout-icon: false\ncallout-appearance: \"simple\"\n---\n\n## Quick TO-DOs\n\n- [x] finish paper draft\n- [ ] submit useR!2026 abstract\n\n## Timeline\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=960}\n:::\n:::\n\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
